@@ -3,9 +3,13 @@ var mongoose = require('mongoose');
 var NoteSchema = new mongoose.Schema({
 
   journal_date : "",
-  title:"",
-  message:"",
-  reaction:"",
+  title : "",
+  best_moment : "",
+  health_message : "",
+  family_message : "",
+  future_message : "",
+  tmrw_message : "",
+  reaction : "",
   className:""
 
 });
